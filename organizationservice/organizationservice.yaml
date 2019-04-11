@@ -1,14 +1,3 @@
-example.property: "I AM THE DEFAULT"
-#spring.jpa.database: "MYSQL"
-#spring.datasource.platform:  "mysql"
-spring.jpa.show-sql: "true"
-spring.jpa.hibernate.ddl-auto: create
-#spring.database.driverClassName: "org.mysql.Driver"
-spring.datasource.driver-class-name: "com.mysql.jdbc.Driver"
-spring.datasource.url: "jdbc:mysql://localhost:3306/assets"
-spring.datasource.username: "assets"
-spring.datasource.password: "assets"
-spring.datasource.testWhileIdle: "true"
-spring.datasource.validationQuery: "SELECT 1"
-spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQL5Dialect"
+
+example.organization.property: "I AM THE DEFAULT ORGANIZATION SERVICE"
 
